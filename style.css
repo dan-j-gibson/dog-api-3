@@ -1,0 +1,16 @@
+main {
+    text-align:center;
+    margin: 10px;
+    border-style: groove;
+    border-width: 3px;
+    padding-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    margin: 10px;
+    max-width: 80%;
+}
