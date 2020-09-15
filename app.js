@@ -29,6 +29,17 @@ function getImage() {
     $('.results').removeClass('hidden');
   }
 
+//    function listenToInput() {
+//     $('.js-search-form').submit(event => {
+//       event.preventDefault();
+//       const queryTarget = $(event.currentTarget).find('.js-query');
+//       const query = queryTarget.val();
+//        queryTarget.val()
+//       getImages(query, searchData);
+//     });
+//    }
+   
+
    $(function() {
     console.log('App loaded! Waiting for submit!');
     listenToInput();

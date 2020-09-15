@@ -1,16 +1,24 @@
 main {
+    display: flex;
+    flex-direction: column;
     text-align:center;
     margin: 10px;
     border-style: groove;
     border-width: 3px;
-    padding-bottom: 10px;
+    padding-bottom: 10px;;
+    align-self: center;
+
 }
+
+.results-img {
+    display: inline-block;
+    flex-direction: column;
+    align-self: center;
+    margin: 10px;
+    max-width: 80%;
+}
+
 
 .hidden {
     display: none;
-}
-
-img {
-    margin: 10px;
-    max-width: 80%;
 }
