@@ -47,7 +47,7 @@ function getImage() {
 
    $(function() {
     console.log('App loaded! Waiting for submit!');
-    listenToInput();
+    listenToInput(); 
    }); 
    
    
