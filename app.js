@@ -7,9 +7,14 @@ function userSearch(){
 
 function getImage() {
     fetch("https://dog.ceo/api/breed/"+ userSearch()+ "/images/random")
-   .then(response => response.json())
+    .then(response => {console.log(response)
+        if (response.ok === false){
+            return alert('Breed not found. Please enter another breed.')
+            }
+        else {
+            return response.json()}
+            })
    .then(responseJson => displayResults(responseJson))
-   .catch(error => alert('Breed not found. Please enter another breed.'));
 }
 
    
